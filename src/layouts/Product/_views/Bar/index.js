@@ -1,4 +1,7 @@
-import { SearchBarView } from "./BarView";
+import React from "react";
+import { reduxForm } from 'redux-form';
+import SearchBarView from "./BarView";
 
-const SearchBar = SearchBarView;
-export default SearchBar;
+export const SearchBar = reduxForm({
+  form: 'filters'
+})(SearchBarView);
