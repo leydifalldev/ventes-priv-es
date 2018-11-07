@@ -93,7 +93,7 @@ main {
 }
 
 .searchBar {
-  height: 200px;
+
   width: 100%;
   display: flex;
   background-color: #202020;
@@ -145,6 +145,7 @@ main {
 }
 .grid-item {
   flex-basis: 28%;
+  margin-bottom: 20px;
 }
 
 @media(max-width: 1333px) {
