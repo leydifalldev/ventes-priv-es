@@ -10,8 +10,8 @@ export default class ProductLayoutView extends Component {
   }
 
   render() {
-    let { products } = this.props;
-    console.log("products LOG", products);
+    let { products, filters } = this.props;
+    console.log("products LOG", filters);
     return (
       <div>
         <Header nbProduct={products.length} />

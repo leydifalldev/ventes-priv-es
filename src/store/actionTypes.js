@@ -1,1 +1,2 @@
 export const FILTER_PRODUCTS = "FILTER_PRODUCTS";
+export const FILTER_ADD = "FILTER_ADD";

@@ -12,3 +12,8 @@ export const multiFilter = (array, filters) => {
 }
 
 export const getFilteredProduct = createSelector(getProducts, getFilters, (all, filters) => multiFilter(all, filters));
+
+export const getFiltersFormValues = state => {
+  const { filters } = state.form;
+  return (filters && filters.values) || {};
+};
